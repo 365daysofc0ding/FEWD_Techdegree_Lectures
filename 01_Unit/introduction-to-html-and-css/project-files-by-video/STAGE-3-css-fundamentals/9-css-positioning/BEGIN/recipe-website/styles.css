@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@400;800&display=swap');
+
+* {
+}
+
+body {
+  background-color: #e8dbd3;
+  font-family: 'Playpen Sans', cursive;
+}
+
+.meat {
+  color: #75474a;
+  font-weight: 800;
+}
+
+#ingredients {
+  background-color: #f3eeea;
+  padding: 5px 15px;
+  border-radius: 10px;
+}
+
+#intro img {
+  border: #75474a 5px solid;
+}
+
+a {
+  color: #aa7d7a;
+}
+
+header, main, footer {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+main {
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+nav {
+  margin-bottom: 20px;
+}
+
+footer {
+  margin-top: 10px;
+}
+
+header, nav, footer {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 36px;
+}
+
+p, li {
+  line-height: 2;
+}
+
+
+
+
+
+
