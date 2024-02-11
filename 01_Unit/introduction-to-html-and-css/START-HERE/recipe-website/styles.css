@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@400;800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-image: url('img/background.jpg');
+    font-family: 'Playpen Sans', cursive;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+header,
+footer {
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    border-radius: 8px;
+    font-family: inherit;
+    padding: 20px;
+    font-size: 20px;
+    background-color: #75474a;
+    color: white;
+}
+
+.content-box {
+    text-align: left;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+}
+
+#heading-primary,
+.heading-secondary {
+    font-size: 44px;
+    text-align: center;
+}
+
+#favorites {
+    text-align: left;
+}
+
+#favorites a:link {
+    color: #aa7d7a;
+}
+
+.recipe-image {
+    border: 5px solid #75474a;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    max-width: 600px;
+    width: 100%;
+}
+
+.recipe-text {
+    text-align: justify;
+    line-height: 1.8;
+}
