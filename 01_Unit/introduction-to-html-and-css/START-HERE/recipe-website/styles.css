@@ -18,6 +18,7 @@ body {
 }
 
 header,
+nav,
 footer {
     text-align: center;
 }
@@ -48,14 +49,16 @@ a:visited {
     color: #fff;
 }
 
-.recipe {
+#recipe,
+#recipes {
     background-color: #fff;
     border-radius: 8px;
     padding: 20px;
     margin: 20px;
 }
 
-.recipe-header {
+#recipe-intro,
+#recipes-intro {
     text-align: center;
 }
 
@@ -65,17 +68,17 @@ a:visited {
     width: 100%;
 }
 
-.recipe-description {
+#recipe-description {
     text-align: justify;
 }
 
-.recipe-ingredients {
+#recipe-ingredients {
     background-color: #f3eeea;
     padding: 10px;
     border-radius: 5px;
 }
 
-.highlight {
+.meat {
     font-weight: bold;
     color: #75474a;
 }
