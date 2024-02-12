@@ -49,16 +49,14 @@ a:visited {
     color: #fff;
 }
 
-#recipe,
-#recipes {
+#recipe {
     background-color: #fff;
     border-radius: 8px;
     padding: 20px;
     margin: 20px;
 }
 
-#recipe-intro,
-#recipes-intro {
+#recipe-intro {
     text-align: center;
 }
 
