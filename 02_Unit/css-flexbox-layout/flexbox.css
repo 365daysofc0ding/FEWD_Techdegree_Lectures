@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    /* display: inline-flex; */
+    height: 600px;
+    flex-wrap: wrap;
+    align-items: stretch;
+    /* align-content: flex-start; */
+}
+
+.box {
+    /* When using flex-basis, the flex items will always be >= to the flex basis value. */
+    /* flex-grow: 1; */
+    flex: 1 0 300px;
+    display: flex;
+}
+
+.box span {
+    margin: auto;
+}
+
+.box-1 {
+    align-self: flex-start;
+}
+
+.box-5 {
+    align-self: flex-end;
+}
+
+.box-6 {
+    order: -1;
+}
+
+@media (max-width: 768px) {
+    .box-1,
+    .box-5 {
+        align-self: stretch;
+    }
+}
