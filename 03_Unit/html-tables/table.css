@@ -1,0 +1,31 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+table,
+th,
+td {
+    border-collapse: collapse;
+}
+
+thead tr {
+    background-color: goldenrod;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(218, 165, 32, 0.15);
+}
+
+th {
+    padding: 20px 10px;
+    color: #fff;
+    text-align: left;
+}
+
+td {
+    padding: 10px;
+}
+
